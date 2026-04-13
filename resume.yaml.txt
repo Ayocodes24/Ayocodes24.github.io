@@ -1,0 +1,107 @@
+cv:
+  # ============================================================================
+  # PERSONAL INFORMATION
+  # ============================================================================
+
+  name: "Ayush Saxena"
+  tagline: "Full Stack Developer"
+  location: "Prayagraj, UP"
+  email: "ayushsaxena0302@gmail.com"
+  phone: "tel:+91-6306793454"
+  website: "https://ayushcodes24.github.io" # Optional - Add if available
+  social_networks:
+    - network: "LinkedIn"
+      username: "ayushsaxena"
+    - network: "GitHub"
+      username: "ayushsaxena"
+
+  # ============================================================================
+  # RESUME SECTIONS
+  # ============================================================================
+
+  sections:
+    technologies:
+      - label: "Languages"
+        details: "C++, Go (Golang), Python, Java (basics)"
+      - label: "Frameworks & Libraries"
+        details: "Pandas, NumPy, Scikit-learn, Gin, Bun ORM, JWT, bcrypt, REST, SimPy"
+      - label: "Database & Tools"
+        details: "PostgreSQL, NATS, Kafka, Docker, Postman"
+      - label: "Concepts"
+        details: "Data Structures & Algorithms, OOP, Operating System, System Design Fundamentals, Database Management System (DBMS), Machine Learning"
+
+    experience:
+      - company: "Roaming Duniya"
+        position: "SWE(ML) Intern"
+        location: "Remote"
+        start_date: "2025-05"
+        end_date: "2025-07"
+        highlights:
+          - "**Engineered** an AI-driven tool that recommends best-value travel packages in real time, enhancing upsell opportunities by **22%**"
+          - "**Developed** a machine learning pipeline using XGBoost and Scikit-learn to identify user churn with **82%** accuracy, improving retention by **18%**"
+        tech_stack: ["Python", "Scikit-learn", "Pandas", "Skyscanner API", "XGBoost", "Google Vision API", "PostgreSQL", "LangChain"]
+
+      - company: "Outlier AI"
+        position: "Paid Contributor"
+        location: "Remote"
+        start_date: "2025-02"
+        end_date: "2025-03"
+        highlights:
+          - "**Analyzed** cutting-edge bioinformatics research from platforms like ResearchGate to expand the AI model's knowledge base"
+          - "**Fine-tuned** the AI model through corrective feedback, enhancing output accuracy by **50%** in complex bioinformatics domains"
+          - "**Conducted** extensive research to identify new topics, improving the model's specialized knowledge base by **20%**"
+
+    education:
+      - institution: "Indian Institute of Information Technology, Allahabad"
+        location: "Allahabad, India"
+        area: "Information Technology (Specialization in Business Informatics)"
+        degree: "B.Tech"
+        start_date: "2022-12"
+        highlights:
+          - "CGPA: **8.38**"
+      - institution: "Mahatma Hansraj Modern School"
+        location: "India"
+        area: "Class 12th (CBSE Board)"
+        degree: "High School"
+        start_date: "2021-07"
+        end_date: "2022-03"
+        highlights:
+          - "Percentage: **96.6%**"
+
+    personal_projects:
+      - name: "GO-Eat: Scalable Food Delivery Platform"
+        date: "2024-01"
+        show_on_resume: true
+        highlights:
+          - "**Built** a secure and scalable backend using **Go**, **Gin**, and **Bun ORM** within a service-oriented architecture"
+          - "**Implemented** JWT-based authentication and **bcrypt** password hashing for secure user management"
+          - "**Enabled** real-time order status updates using **NATS** for publisher-subscriber messaging"
+          - "**Containerized** backend microservices using **Docker** and developed a responsive UI with **React** and **TailwindCSS**"
+        tech_stack: ["Go", "Gin", "PostgreSQL", "Bun ORM", "JWT", "NATS", "Docker", "React"]
+
+      - name: "GreenTwin: Sustainable Logistics Digital Twin Prototype"
+        date: "2023-12"
+        show_on_resume: true
+        highlights:
+          - "**Designed** a multi-agent logistics simulator using **SimPy** to model travel time and emissions for **5+** vehicle types"
+          - "**Implemented** a TSP-based route optimizer using geodesic coordinates, reducing estimated emissions by **12%**"
+          - "**Constructed** an interactive **Streamlit** dashboard with real-time animated maps and KPI widgets for monitoring vehicle telemetry"
+        tech_stack: ["Python", "Streamlit", "Pandas", "NetworkX", "SimPy", "Plotly"]
+
+    achievements:
+      - name: "Competitive Programming"
+        highlights:
+          - "Codeforces Max Rating: **1641** (**Expert**)"
+          - "LeetCode Max Rating: **1915** (**Knight**)"
+          - "Best Global Rank: **823** in Weekly Contest 436 at LeetCode"
+          - "Best Global Rank: **926** in Codeforces Round 174 (Div 2)"
+      - name: "Hackathons"
+        highlights:
+          - "Finalist: **III 4.0** (Innovation Hackathon), selected among **300+** teams"
+
+    leadership_volunteering:
+      - name: "Effervescence 2024"
+        date: "2024-10"
+        highlights:
+          - "**Led** cross-functional teams as Festival Coordinator for the annual cultural fest of IIITA, managing **10,000+** attendees"
+          - "**Optimized** budgeting and marketing strategies, boosting event participation by **37.5%** and securing key sponsorships"
